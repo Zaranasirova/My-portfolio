@@ -1,0 +1,63 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  text-decoration-line: none;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 290;
+  font-style: normal;
+}
+
+.container {
+  width: 92%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0);
+  margin: 0 auto;
+}
+
+.btn {
+  border: 1px solid transparent;
+  border-radius: 50px;
+  font-size: 16px;
+  background-color: #8314C8;
+  padding: 15px 30px;
+}
+
+.header .container {
+  border: 1px solid black;
+  border-radius: 30px;
+  padding: 10px 20px;
+  background-color: #000000;
+}
+.header .container .row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header .container .row .logo {
+  font-size: 30px;
+}
+.header .container .row .navLinks .navList {
+  display: flex;
+  gap: 70px;
+  font-size: 26px;
+  height: 100%;
+}
+.header .container .row .contact-info {
+  height: 100%;
+}
+.header .container .row .contact-info .icon {
+  display: none;
+}
+
+@media (max-width: 950px) {
+  .header .container .row .navLinks {
+    display: none;
+  }
+  .header .container .row .contact-info .btn {
+    display: flex;
+  }
+}/*# sourceMappingURL=style.css.map */
