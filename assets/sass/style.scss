@@ -1,74 +1,73 @@
-*{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    list-style-type: none;
-    text-decoration-line: none;
-    color: #ffff;
-      font-family: "Montserrat", sans-serif;
-      font-optical-sizing: auto;
-      font-weight: 290;
-      font-style: normal;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  text-decoration-line: none;
+  color: #ffff;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 290;
+  font-style: normal;
 }
-.container{
-    width: 92%;
-    height:100%;
-    background-color:#0000;
-    margin: 0 auto;
+.container {
+  width: 92%;
+  height: 100%;
+  background-color: #0000;
+  margin: 0 auto;
 }
-.btn{
-    border: 1px solid transparent;
-    border-radius: 50px;
-    font-size:16px;
-    background-color: #8314C8;
-    padding: 15px 30px;
-  
+.btn {
+  border: 1px solid transparent;
+  border-radius: 50px;
+  font-size: 16px;
+  background-color: #8314c8;
+  padding: 15px 30px;
 }
-.header{
-    .container{
-        border: 1px solid black;
-        border-radius: 30px;
-        padding: 10px 20px;
-        background-color: #000000;
-      
-        .row{
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            
-.logo{
-    font-size: 30px;
-}
-.navLinks{
-    .navList{
-        display: flex;
-        gap: 70px;
-        font-size: 26px;
-        height: 100%;
-    }
-}
-.contact-info{
-    height: 100%;
-    .icon{
-     display: none;
-    }
-}
-    }
-}
-}
-@media(max-width:950px){
-.header{
-    .container{
-        .row{
-            .navLinks{
-                display: none;
-            }
-            .contact-info{
-                .btn{
-                  display: flex;  
-                }
-            }
+.header {
+  .container {
+    border: 1px solid black;
+    border-radius: 30px;
+    padding: 10px 20px;
+    background-color: #000000;
+
+    .row {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      .logo {
+        font-size: 30px;
+      }
+      .navLinks {
+        .navList {
+          display: flex;
+          gap: 70px;
+          font-size: 26px;
+          height: 100%;
         }
+      }
+      .contact-info {
+        height: 100%;
+        .icon {
+          display: none;
+        }
+      }
     }
+  }
 }
+@media (max-width: 950px) {
+  .header {
+    .container {
+      .row {
+        .navLinks {
+          display: none;
+        }
+        .contact-info {
+          .btn {
+            display: flex;
+          }
+        }
+      }
+    }
+  }
 }
