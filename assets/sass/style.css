@@ -26,6 +26,10 @@
   padding: 15px 30px;
 }
 
+.header {
+  background: rgb(0, 0, 0);
+  background: linear-gradient(90deg, rgb(0, 0, 0) 7%, rgb(5, 7, 88) 52%, rgb(10, 19, 89) 68%, rgb(3, 17, 42) 100%, rgb(32, 5, 52) 100%);
+}
 .header .container {
   border: 1px solid black;
   border-radius: 30px;
@@ -60,4 +64,27 @@
   .header .container .row .contact-info .btn {
     display: flex;
   }
+}
+section {
+  padding: 40px 0;
+  background: rgb(0, 0, 0);
+  background: linear-gradient(90deg, rgb(0, 0, 0) 0%, rgb(53, 7, 70) 46%, rgb(92, 14, 97) 65%, rgb(87, 2, 133) 100%, rgb(32, 5, 52) 100%);
+}
+section .container .hero {
+  display: flex;
+}
+section .container .hero .left-side {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+}
+section .container .hero .right-side {
+  width: 50%;
+}
+section .container .hero .right-side .hero-image .mainimage {
+  width: 100%;
+  border: 1px solid #000000;
+  border-radius: 50%;
 }/*# sourceMappingURL=style.css.map */
